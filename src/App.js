@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import logo from "./meduzya universe2.svg";
+import React from "react";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <>
+      <div className="container-logo">
+        <a href="#">
+          <img className="logo" src={logo}></img>
         </a>
+      </div>
+
+      <header className="header">
+        <ul className="header_links">
+          <li className="header__link">Соцсети</li>
+          <li className="header__link">Телефон</li>
+          <li className="header__link">Обо мне</li>
+        </ul>
       </header>
-    </div>
+    </>
   );
 }
 

@@ -1,13 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+:root {
+  --primary-color: #5352ed;
+  --secondary-color: #ff6348;
+  --background-color: #dfe4ea;
+  --text-color: #2f3542;
+  --disabled-color: #747d8c;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+* {
+  user-select: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Geologica", sans-serif;
+}
+img {
+  width: 100%;
+}
+.container-logo {
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.logo {
+  display: flex;
+  width: 10em;
+}
+
+.header_links {
+  margin: 0 auto;
+  display: flex;
+  gap: 1em;
+}
+
+.header__link {
+  font-weight: 300;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 255, 0);
+  color: var(--text-color);
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s, scale 0.2s;
+}
+.header__link:hover {
+  scale: 1.2;
+}
+
+header {
+  width: 80%;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2em;
+  margin: 0 auto;
+  overflow: hidden;
 }
