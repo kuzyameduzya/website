@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.04ee5025.css",
+    "main.js": "/website/static/js/main.6e3eedf2.js",
+    "static/js/592.ced024c6.chunk.js": "/website/static/js/592.ced024c6.chunk.js",
+    "static/media/meduzya universe2.svg": "/website/static/media/meduzya universe2.c6aecdd4a893dee2d6244d2ef32bfb9a.svg",
+    "index.html": "/website/index.html",
+    "main.04ee5025.css.map": "/website/static/css/main.04ee5025.css.map",
+    "main.6e3eedf2.js.map": "/website/static/js/main.6e3eedf2.js.map",
+    "592.ced024c6.chunk.js.map": "/website/static/js/592.ced024c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04ee5025.css",
+    "static/js/main.6e3eedf2.js"
+  ]
+}
